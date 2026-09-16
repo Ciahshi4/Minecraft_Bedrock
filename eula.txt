@@ -1,0 +1,12 @@
+# This file is informational only and is NOT copied into the Docker image.
+#
+# The real /data/eula.txt used by bedrock_server is generated automatically
+# by start.sh, every time the container starts, from the EULA environment
+# variable you set in Railway. This avoids ever needing to commit an
+# eula=true acceptance into git.
+#
+# To accept the EULA (https://www.minecraft.net/en-us/eula), set in Railway:
+#   EULA=TRUE
+#
+# If EULA is not set to TRUE, start.sh refuses to launch the server.
+eula=false

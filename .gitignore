@@ -1,0 +1,19 @@
+# Local test data (never commit a real world or secrets)
+data/
+*.log
+
+# If you ever test-download the BDS zip locally, don't commit it
+bedrock-server*.zip
+
+__pycache__/
+*.pyc
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env files
+.env
+.env.local
